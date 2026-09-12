@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物智共振 · 校园二手技能共振平台</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">⚡ 物智共振</div>
+    <div id="userChip" class="user-chip"></div>
+  </header>
+
+  <nav class="nav">
+    <button data-view="market" class="active">🛍️ 物品市场</button>
+    <button data-view="exchange">🤝 需求·技能</button>
+    <button data-view="social">🎲 盲盒社交</button>
+    <button data-view="messages">💬 消息 <span id="msgBadge" class="badge"></span></button>
+    <button data-view="mine">👤 我的</button>
+    <button id="publishBtn" class="publish">＋ 发布</button>
+  </nav>
+
+  <main id="view"></main>
+
+  <div id="modal-root"></div>
+  <div id="toast"></div>
+
+  <script src="js/store.js"></script>
+  <script src="js/vision.js"></script>
+  <script src="js/radar.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
